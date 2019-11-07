@@ -19,10 +19,16 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/starlight_settings_title" >
 
-    <com.awaken.support.preferences.SystemSettingSwitchPreference
+    <com.starlight.support.preferences.SystemSettingSwitchPreference
         android:key="use_old_mobiletype"
         android:title="@string/use_old_mobiletype_title"
         android:summary="@string/use_old_mobiletype_summary"
+        android:defaultValue="true" />
+
+    <com.starlight.support.preferences.SecureSettingSwitchPreference
+        android:key="advanced_reboot"
+        android:title="@string/global_actions_advanced_reboot_title"
+        android:summary="@string/global_actions_advanced_reboot_summary"
         android:defaultValue="true" />
 
 </PreferenceScreen>
