@@ -49,4 +49,10 @@
         android:summary="@string/torch_long_press_power_gesture_summary"
         android:defaultValue="false"/>
 
+    <com.starlight.support.preferences.SystemSettingSwitchPreference
+        android:key="show_volte_icon" 
+        android:title="@string/volte_icon_title" 
+        android:summary="@string/volte_icon_summary"
+        android:defaultValue="true"/>
+
 </PreferenceScreen>
