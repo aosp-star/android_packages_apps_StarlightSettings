@@ -43,4 +43,10 @@
         android:title="@string/volume_rocker_music_controls_title"
         android:defaultValue="false" />
 
+    <com.starlight.support.preferences.SystemSettingSwitchPreference
+        android:key="torch_long_press_power_gesture"
+        android:title="@string/torch_long_press_power_gesture_title"
+        android:summary="@string/torch_long_press_power_gesture_summary"
+        android:defaultValue="false"/>
+
 </PreferenceScreen>

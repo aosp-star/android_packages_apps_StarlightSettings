@@ -34,4 +34,8 @@
     <string name="volume_rocker_music_controls_title">Music control</string>
     <string name="volume_rocker_music_controls_summary">Long press volume buttons to switch tracks while screen off</string>
 
+    <!-- Power Button - Long press for torch -->
+    <string name="torch_long_press_power_gesture_title">Long press power button for torch</string>
+    <string name="torch_long_press_power_gesture_summary">Toggles torch when power button is long pressed while display is off</string>
+
 </resources>
