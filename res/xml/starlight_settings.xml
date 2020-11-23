@@ -25,12 +25,6 @@
         android:summary="@string/use_old_mobiletype_summary"
         android:defaultValue="true" />
 
-    <com.starlight.support.preferences.SecureSettingSwitchPreference
-        android:key="advanced_reboot"
-        android:title="@string/global_actions_advanced_reboot_title"
-        android:summary="@string/global_actions_advanced_reboot_summary"
-        android:defaultValue="true" />
-
     <com.starlight.support.preferences.SystemSettingSwitchPreference
         android:key="volume_rocker_wake"
         android:summary="@string/volume_rocker_wake_summary"
